@@ -17,10 +17,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3354722006103179~1087044367"
+      }
+    },
+    "android": {
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3354722006103179~5191840717"
+      },
+      "package": "com.im.variable.CONVERTit"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Unit of Measurement"
   }
 }
